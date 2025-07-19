@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* share style start */
+.logo {
+  font-size: 1.5rem;
+  color: #3A3A3A;
+}
+
+.title_text {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #3A3A3A;
+  width: 582px;
+}
+
+.menu_link {
+  font-size: 1rem;
+  color: #3A3A3A;
+}
+
+.margin_header {
+  margin: 20px 0px;
+}
+
+.margin_1st {
+  margin: 80px 0px;
+}
+
+.margin {
+  margin: 130px 0px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pragaraph_text {
+  font-size: 1rem;
+  color: #3A3A3A;
+  font-weight: 600;
+  width: 505px;
+  margin-top: 20px;
+}
+
+.product_title {
+  font-size: 1.75rem;
+  color: #18191F;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000000DE;
+}
+
+.width {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.product_container {
+  max-width: 1047px;
+  margin: 0 auto;
+}
+
+.btn {
+  height: 44px;
+  width: 194px;
+  background: #E02C6D;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.btn:hover{
+  background: transparent;
+  border: 1px solid #E02C6D;
+  color: #E02C6D;
+  transition: 0.5s;
+}
+/* share style start */
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+ul .fa-solid {
+  margin-left: 30px;
+}
+
+.banner {}
+
+.banner_content {
+  border: 2px solid aqua;
+  align-items: center;
+}
+.banner_left{
+  
+}
+.banner_container {
+  background-image: url('Circle design.svg');
+}
