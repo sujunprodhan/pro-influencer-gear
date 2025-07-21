@@ -214,6 +214,20 @@ header {
   margin-bottom: 10px;
 }
 
+.see_all {
+  color: #E02C6D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.see_all i {
+  margin-left: 10px;
+}
+
 /* feature style start */
 .feature_container {
   max-width: 1110px;
