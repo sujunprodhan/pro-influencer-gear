@@ -138,9 +138,12 @@ header {
 .sponsir_container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  padding: 30px 0px;
+  margin-bottom: 100px;
+  padding: 20px 0px;
   align-items: center;
   justify-items: center;
+  border: 1px solid #C0CCDA;
+  border-radius: 10px;
 }
 
 .sponsir_container img {
