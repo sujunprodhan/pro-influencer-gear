@@ -108,6 +108,7 @@ header {
 
 .nav_cantainer {
   display: flex;
+  margin: 50px 0px;
 }
 
 .nav_links {
