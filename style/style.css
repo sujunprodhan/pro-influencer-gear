@@ -7,8 +7,8 @@
   box-sizing: border-box;
 }
 
-body {
-  max-width: 1110px;
+.width {
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -49,17 +49,11 @@ body {
   align-items: center;
 }
 
-.pragaraph_text {
-  font-size: 1rem;
-  color: #3A3A3A;
-  font-weight: 600;
-  width: 505px;
-  margin-top: 20px;
-}
-
 .prodcut_discription {
   font-size: 0.87rem;
   max-width: 196px;
+  margin-bottom: 10px;
+  color: #787885;
 }
 
 .product_title {
@@ -145,7 +139,7 @@ header {
   grid-template-columns: repeat(7, 1fr);
   padding: 30px 0px;
   align-items: center;
-
+  justify-items: center;
 }
 
 .sponsir_container img {
@@ -251,10 +245,44 @@ header {
   font-weight: 600;
 }
 
-/* product container style end */
+/* feature style end */
+
+/* -----footer style css start----- */
+
+.footer_container {
+  background: #0A0826;
+  color: #fff
+}
+
+.footer_content {
+  max-width: 1047px;
+  margin: 0px auto;
+  text-align: center;
+  align-items: center;
+  padding: 70px 0 70px 0;
+}
+
+.footer_content h1 {
+  font-size: 2.5rem;
+}
+
+.social_icon i {
+  margin: 20px 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #24213c;
+}
+
+.social_icon i:hover {
+  background-color: #E02C6D;
+  transition: 0.5s;
+}
+
+/* -----footer style css end----- */
 
 
 /* responsive design */
+
 @media screen and (max-width: 576px) {
   .banner_content {
     flex-direction: column;
@@ -319,9 +347,9 @@ header {
   }
 
   /* feature */
+
   .feature_container {
     flex-direction: column-reverse;
-    /* gap: 30px; */
     text-align: center;
   }
 
@@ -335,12 +363,30 @@ header {
   }
 }
 
-
-
 /* mideum device responsiv */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav_cantainer {
     padding: 10px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .product_container {
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  .footer_container {
+    width: 100%;
+    overflow: auto;
+    overflow: hidden;
+  }
+
+  .feature_container {
+    padding: 10px;
+    overflow: hidden;
   }
 }
